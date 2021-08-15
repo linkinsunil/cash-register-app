@@ -19,5 +19,7 @@ button{
     align-self: center;
 }
 
-#denomination{
+.change-table{
+    margin-top: 1rem;
+    border: 1px solid black;
 }

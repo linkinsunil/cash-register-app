@@ -19,7 +19,11 @@ button{
     align-self: center;
 }
 
-.change-table{
+#change-table, tr, td, th{
     margin-top: 1rem;
     border: 1px solid black;
+}
+
+td{
+    
 }

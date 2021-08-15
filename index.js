@@ -5,6 +5,23 @@ const toReturn = document.querySelector("#to-return")
 const denomination = document.querySelector("#denomination")
 
 let currency = [1,5,10,20,100,500,2000];
+const bill = billAmount.value;
+const cash = cashTaken.value;
 
 
+const handleclick = (cash, bill) => {
+  toReturn.innerText = cash - bill;
+}
+
+function cashManager(){
+
+    
+    
+
+
+
+
+
+
+}
 

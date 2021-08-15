@@ -1,5 +1,3 @@
-var readLineSync = require('readline-sync');
-
 var currency = [1,5,10,20,100,500,2000];
 
 
@@ -19,4 +17,4 @@ function billing(billAmount, cashTaken) {
     }
 }
 
-billing();
+console.log(billing(210, 2000));

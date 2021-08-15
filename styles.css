@@ -1,0 +1,9 @@
+.container{
+    display:flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+input{
+    margin: 1rem;
+}

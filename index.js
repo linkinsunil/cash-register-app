@@ -1,4 +1,8 @@
-var currency = [1,5,10,20,100,500,2000];
+let billAmount = document.querySelector(".bill-amount");
+let cashTaken = document.querySelector(".cash-taken")
+let toReturn = document.querySelector(".cash-taken")
+let denomination = document.querySelector(".denomination")
+let currency = [1,5,10,20,100,500,2000];
 
 
 function billing(billAmount, cashTaken) {

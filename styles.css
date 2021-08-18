@@ -10,6 +10,11 @@
     --black-color: black;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin:0px;
+}
+
 .container{
     display:flex;
     flex-direction: column;

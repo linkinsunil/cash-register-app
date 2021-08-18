@@ -28,8 +28,17 @@ button{
     border: 1px solid black;
 }
 
+/* footer */
 
-.link{
-    text-decoration: none;
-    padding: 0.5rem 1rem;
+.footer {
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
 }

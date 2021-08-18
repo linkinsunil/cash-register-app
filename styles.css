@@ -12,6 +12,10 @@
     --green-light: #5EEAD4;
 }
 
+label{
+    text-align: left;
+}
+
 input{
     margin-bottom: 1rem;
     padding: .5rem;

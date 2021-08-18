@@ -37,10 +37,10 @@ button{
 /* footer */
 
 .footer {
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
     padding: 2rem 1rem;
     text-align: center;
-    /* color: white; */
+    color: var(--dark-gray);
     border-top-right-radius: 1rem;
 }
 

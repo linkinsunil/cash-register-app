@@ -12,7 +12,7 @@
     --green-light: #5EEAD4;
 }
 
-label{
+label, caption{
     text-align: left;
 }
 

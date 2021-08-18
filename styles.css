@@ -34,7 +34,7 @@ button{
     background-color: var(--primary-color);
     padding: 2rem 1rem;
     text-align: center;
-    color: white;
+    /* color: white; */
     border-top-right-radius: 1rem;
 }
 

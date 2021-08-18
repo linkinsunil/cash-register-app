@@ -6,6 +6,8 @@
     --primary-color:#6D28D9;
     --dark-gray: #6B7280;
     --off-white: #E5E7EB;
+    --white-color: white;
+    --black-color: black;
 }
 
 .container{
@@ -37,7 +39,7 @@ button{
 /* footer */
 
 .footer {
-    background-color: var(--dark-gray);
+    background-color: var(--white-color);
     padding: 2rem 1rem;
     text-align: center;
     color: var(--primary-color);

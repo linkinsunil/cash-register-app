@@ -8,12 +8,38 @@
     --off-white: #E5E7EB;
     --white-color: white;
     --black-color: black;
+    --green-dark : #0C4A6E;
+    --green-light: #5EEAD4;
+}
+
+input{
+    margin-bottom: 1.5rem;
+    padding: .5rem;
+}
+
+button{
+    padding:0.5rem;
+    background-color: var(--primary-light);
+    border: none;
+    border-radius: .2rem;
+    font-size: larger;
+    font-weight: bold;
+}
+
+#message{
+    margin-top: 2rem;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    border: none;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
     margin:0px;
 }
+
+/* App Container */
 
 .container{
     display:flex;
@@ -23,18 +49,7 @@ body {
     margin: auto;
 }
 
-input{
-    margin: 1rem;
-    padding:.5rem;
-    
-}
-
-button{
-    margin: 1rem 0rem 2rem 0rem;
-    padding:.5rem;
-    width: 20vw;
-    align-self: center;
-}
+/* table */
 
 #change-table, tr, td, th{
     margin-top: 1rem;

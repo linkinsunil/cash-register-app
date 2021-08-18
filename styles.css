@@ -2,6 +2,12 @@
 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 
+:root {
+    --primary-color:#6D28D9;
+    --dark-gray: #6B7280;
+    --off-white: #E5E7EB;
+}
+
 .container{
     display:flex;
     flex-direction: column;

@@ -56,3 +56,7 @@ button{
     display: inline;
     padding: 0rem 0.5rem;
 }
+
+.footer ul {
+    padding-inline-start: 0px;
+}

@@ -1,12 +1,10 @@
-const billAmount = document.querySelector("#bill-amount")
-const cashTaken = document.querySelector("#cash-taken")
-const button = document.querySelector("#check-btn")
-const msgReturn = document.querySelector("#msg-return")
-const changeTable = document.querySelector("#change-table")
-const message = document.querySelector("#message")
-const noOfNotes = document.querySelector(".no-of-notes")
-
-// console.log(billAmount, cashTaken, msgReturn )
+const billAmount = document.querySelector("#bill-amount");
+const cashTaken = document.querySelector("#cash-taken");
+const button = document.querySelector("#check-btn");
+const msgReturn = document.querySelector("#msg-return");
+const changeTable = document.querySelector("#change-table");
+const message = document.querySelector("#message");
+const noOfNotes = document.querySelectorAll(".no-of-notes");
 
 let availableNotes = [2000,500,100,20,10,5,1];
 

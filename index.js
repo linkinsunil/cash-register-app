@@ -18,16 +18,21 @@ function validate(){
 
       if(Number(cashTaken.value) >= Number(billAmount.value)){
         const returnableAmount = cashTaken.value - billAmount.value;
+        msgReturn.style.color = "var(--primary-color)"
+        msgReturn.style.fontWeight = "bold";
+        msgReturn.style.fontSize = "larger";
         msgReturn.value = returnableAmount;
         calculateChange(returnableAmount);
 
       } else {
         message.style.display = "block";
+        message.style.color = "red";
         message.innerText = "Invalid Amount. Cash Taken must be greater than or equal to the Bill Amount"
       }
 
     } else {
       message.style.display = "block";
+      message.style.color = "red";
       message.innerText= "Bill Amount must be greater than 0"   
     }
 
@@ -37,6 +42,10 @@ function calculateChange(returnableAmount){
   for (let i = 0; i < availableNotes.length; i++) {
     const numberOfNotes = Math.trunc(returnableAmount / availableNotes[i]);
     returnableAmount =  returnableAmount % availableNotes[i];
+    if(numberOfNotes > 0) {
+      noOfNotes[i].style.color = "var(--primary-color)";
+      noOfNotes[i].style.fontWeight = "bold";
+    }
     noOfNotes[i].innerText = numberOfNotes
   }
 }

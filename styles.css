@@ -60,6 +60,8 @@ body {
 #change-table, tr, td, th{
     margin-top: 1rem;
     border: 1px solid black;
+    /* table-layout: fixed;
+    width: 100%; */
 }
 
 /* footer */
